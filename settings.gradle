@@ -1,0 +1,2 @@
+rootProject.name = "TI4A"
+include ':app'
