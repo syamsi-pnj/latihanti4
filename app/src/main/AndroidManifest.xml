@@ -4,7 +4,7 @@
 	package="ac.id.pnj.sample.ti4a">
 
 	<uses-permission android:name="android.permission.CALL_PHONE" />
-	<uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+	<uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
 	<uses-permission android:name="android.permission.INTERNET" />
 
 	<application
@@ -14,10 +14,11 @@
 		android:roundIcon="@mipmap/ic_launcher_round"
 		android:supportsRtl="true"
 		android:theme="@style/Theme.TI4A">
-		<activity android:name=".LatihanListView"></activity>
-		<activity android:name=".MainActivity2"></activity>
+		<activity android:name=".MainActivity"></activity>
+		<activity android:name=".LatihanListView" />
+		<activity android:name=".MainActivity2" />
 		<activity
-			android:name=".MainActivity"
+			android:name=".LatihanActivityFragment"
 			android:exported="true">
 			<intent-filter>
 				<action android:name="android.intent.action.MAIN" />
